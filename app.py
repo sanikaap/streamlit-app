@@ -6,22 +6,23 @@ from PIL import Image
 current_dir = Path(__file__).parent if"__file__" in locals() else Path().cwd()
 css_file = current_dir / "main.css"
 resume_file = current_dir / "resume.pdf"
-profile_pic = current_dir / "profile-pic.png"
+profile_pic = current_dir / "profile_pic.jpg"
 
 PAGE_TITLE = "Sanika Patil"
 PAGE_ICON = ":wave:"
 NAME = "Hello :wave: I'm Sanika Patil"
 DESCRIPTION = """
-From Sveri College Pandharpur , Currently Stuidng In Final Year Computer Science & Engineering.
-Strong in design and integration with intuitive problem-solving skills. Passionate about learning new
-things and implementing projects.
+a fresh and enthusiastic software developer with a strong foundation in Computer Science and Engineering. 
+I'm eager to learn new technologies, take on challenges, and build innovative solutions. 
+
+
 """
 EMAIL = "2611sanika@gmail.com"
 SOCIAL_MEDIA = {
     "Github": "https://github.com/sanikaap/",
     "LinkedIn": "https://linkedin.com/in/sanika-patil-8623a5223",
     "Codechef": "https://www.codechef.com/learn",
-    
+    "Leetcode": "",
 }
 
 
@@ -74,11 +75,11 @@ early intervention
 st.write('\n')
 
 
-st.subheader(" :rocket: Full Stack AI Image Generation Application")
+st.subheader(" :rocket:  Twitter Clone - Using Next.Js")
 st.write(
     """
-- ► Oversaw the development and launch of a comprehensive AI image- generating app.
-- ► Created a full-stack solution that seamlessly integrated front-end and back-end components
+- ► Create reusable UI components for tweets,user profiles,comments,and likes using Tailwind CSS classes.
+- ►  Implement Next.js routing for different pages and design consistent layouts for a seamless user experience.
 
     """
 )
@@ -101,9 +102,9 @@ st.subheader(" :star: Hard Skills & Soft Skills")
 st.write(
     """
 - 👩‍💻 Programming: Python, C & C++, Java
-- 📊 Web Frameworks: HTML, CSS, JavaScript, Bootstrap, ReactJS, Tailwind CSS,NextJS,Node js , Express js
-- 📊 Familar with: Git , Github , Gitlab, Bitbucket, Devops
-- 🗄️ Databases: Postgres, MongoDB, MySQL
+- 📊 Frameworks: HTML, CSS, JavaScript, Bootstrap, ReactJS, Tailwind CSS,NextJS,Node js , Express js , SpringBoot, Django
+- 📊 Familar with: Git , Github , Gitlab, Bitbucket, Devops,Docker , Kubernetes
+- 🗄️ Databases: Postgres, MongoDB, MySQL , MongoDB
 - :star: Soft skills: Teamwork, Communication, Problem Solving, Adaptability, Work Ethic
 """
 )
